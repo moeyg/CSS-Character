@@ -3,7 +3,6 @@
 📌 <b>Skill</b>
 <ul>
   <li>HTML/CSS</li>
-  <li>JavaScript</li>
 </ul>
 📌 <b>Comment</b>
 <ul>
