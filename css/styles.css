@@ -8,6 +8,7 @@ body {
 .wrap__cat {
   margin: 200px 0 0 600px;
   position: relative;
+  z-index: 3;
 }
 
 .cat__face *,
@@ -243,4 +244,17 @@ body {
   height: 100px;
   border-radius: 50%;
   background-color: #c5894f;
+}
+
+.cushion {
+  position: absolute;
+  top: 340px;
+  left: 500px;
+}
+
+.fish {
+  position: absolute;
+  top: -50px;
+  left: 150px;
+  width: 300px;
 }
