@@ -1,19 +1,7 @@
-@-webkit-keyframes foot-wag {
-  50% {
-    top: 113px;
-    left: 85px;
-  }
-}
 @keyframes foot-wag {
   50% {
     top: 113px;
     left: 85px;
-  }
-}
-
-@-webkit-keyframes tail-wag {
-  50% {
-    top: -183px;
   }
 }
 
@@ -23,44 +11,32 @@
   }
 }
 
-@-webkit-keyframes cat-whiskers-1 {
-  50% {
-    top: 12px;
-  }
-}
-
 @keyframes cat-whiskers-1 {
   50% {
     top: 12px;
   }
 }
 
-@-webkit-keyframes cat-whiskers-2 {
+@keyframes cat-whiskers-2 {
   50% {
     top: 12px;
   }
 }
 
-@-webkit-keyframes hand-wag {
-  50% {
-    top: 173px;
-  }
-}
-
 @keyframes hand-wag {
   50% {
-    top: 173px;
-  }
-}
-
-@-webkit-keyframes fish {
-  50% {
-    top: -40%;
+    top: 175px;
   }
 }
 
 @keyframes fish {
   50% {
     top: -40%;
+  }
+}
+
+@keyframes pupil {
+  50% {
+    transform: scale(0.9);
   }
 }

@@ -37,8 +37,6 @@ body {
   border: 5px solid black;
   border-bottom: rgba(0, 0, 0, 0);
   background-color: #c5894f;
-  -webkit-transform: rotate(-30deg);
-  -ms-transform: rotate(-30deg);
   transform: rotate(-30deg);
 }
 
@@ -52,15 +50,11 @@ body {
   left: -12px;
   border-right: 5px solid black;
   background-color: wheat;
-  -webkit-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
   transform: rotate(44deg);
 }
 
 .cat__face--ears-right {
   left: 170px;
-  -webkit-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
   transform: rotate(30deg);
 }
 
@@ -87,6 +81,9 @@ body {
   width: 35px;
   height: 35px;
   border-radius: 50%;
+  animation-name: pupil;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 .cat__face--nose {
@@ -95,8 +92,6 @@ body {
   border-bottom: 30px solid rgba(0, 0, 0, 1);
   border-left: 20px solid rgba(0, 0, 0, 0);
   border-right: 20px solid rgba(0, 0, 0, 0);
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -139,43 +134,29 @@ body {
 .cat__face--mouth-left::before,
 .cat__face--mouth-left::after {
   left: -130px;
-  -webkit-animation-name: cat-whiskers-2;
   animation-name: cat-whiskers-2;
-  -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
   animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
 }
 
 .cat__face--mouth-right::before,
 .cat__face--mouth-right::after {
-  -webkit-animation-name: cat-whiskers-1;
   animation-name: cat-whiskers-1;
-  -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
   animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
 }
 
 .cat__face--mouth-right::after,
 .cat__face--mouth-left::before {
-  -webkit-transform: rotate(10deg);
-  -ms-transform: rotate(10deg);
   transform: rotate(10deg);
 }
 
 .cat__face--mouth-right::before,
 .cat__face--mouth-left::after {
-  -webkit-transform: rotate(-10deg);
-  -ms-transform: rotate(-10deg);
   transform: rotate(-4deg);
 }
 
@@ -201,22 +182,15 @@ body {
 }
 
 .cat__body--hand-left {
-  -webkit-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
   transform: rotate(15deg);
 }
 
 .cat__body--hand-right {
   left: 100px;
-  -webkit-animation-name: hand-wag;
   animation-name: hand-wag;
-  -webkit-animation-duration: 2s;
   animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
   animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
 }
 
@@ -255,14 +229,9 @@ body {
   height: 100px;
   border-left: rgba(0, 0, 0, 0);
   border-top: rgba(0, 0, 0, 0);
-  -webkit-transform: rotate(20deg);
-  -ms-transform: rotate(20deg);
   transform: rotate(40deg);
-  -webkit-animation-name: foot-wag;
   animation-name: foot-wag;
-  -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
@@ -274,11 +243,8 @@ body {
   border: 5px solid black;
   border-radius: 45%;
   background-color: #c5894f;
-  -webkit-animation-name: tail-wag;
   animation-name: tail-wag;
-  -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
@@ -305,14 +271,9 @@ body {
   top: -50px;
   left: 150px;
   width: 300px;
-  -webkit-animation-name: fish;
   animation-name: fish;
-  -webkit-animation-duration: 2s;
   animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
   animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
 }
