@@ -1,7 +1,6 @@
 # 🖇 Character-Contest
-<img width="1432" alt="character1" src="https://user-images.githubusercontent.com/102715022/164966338-f89453ed-db81-42a6-ba59-5ec7ebd25ab0.png">
-<img width="1440" alt="character2" src="https://user-images.githubusercontent.com/102715022/164966340-0a7d736c-3fbc-40bf-9935-00e13dbe36e8.png">
-물고기가 왔다갔다 하면서, 고양이가 움직입니다.
+https://user-images.githubusercontent.com/102715022/164966513-449b4d91-7216-4465-a346-c5722b79e1e0.mov
+<br>
 📌 <b>Skill</b>
 <ul>
   <li>HTML/CSS</li>
