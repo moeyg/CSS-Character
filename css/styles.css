@@ -1,7 +1,8 @@
 @import url(reset.css);
+@import url(animation.css);
 
 body {
-  background-color: white;
+  background-color: wheat;
   height: 400px;
 }
 
@@ -50,7 +51,7 @@ body {
   top: -32px;
   left: -12px;
   border-right: 5px solid black;
-  background-color: white;
+  background-color: wheat;
   -webkit-transform: rotate(30deg);
   -ms-transform: rotate(30deg);
   transform: rotate(44deg);
@@ -138,6 +139,30 @@ body {
 .cat__face--mouth-left::before,
 .cat__face--mouth-left::after {
   left: -130px;
+  -webkit-animation-name: cat-whiskers-2;
+  animation-name: cat-whiskers-2;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
+  animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
+}
+
+.cat__face--mouth-right::before,
+.cat__face--mouth-right::after {
+  -webkit-animation-name: cat-whiskers-1;
+  animation-name: cat-whiskers-1;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
+  animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
 }
 
 .cat__face--mouth-right::after,
@@ -183,6 +208,16 @@ body {
 
 .cat__body--hand-right {
   left: 100px;
+  -webkit-animation-name: hand-wag;
+  animation-name: hand-wag;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
+  animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
 }
 
 .cat__body--hand-left::before,
@@ -223,6 +258,12 @@ body {
   -webkit-transform: rotate(20deg);
   -ms-transform: rotate(20deg);
   transform: rotate(40deg);
+  -webkit-animation-name: foot-wag;
+  animation-name: foot-wag;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 .cat__body--tail {
@@ -233,7 +274,14 @@ body {
   border: 5px solid black;
   border-radius: 45%;
   background-color: #c5894f;
+  -webkit-animation-name: tail-wag;
+  animation-name: tail-wag;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
+
 .cat__body--tail::before {
   content: "";
   display: block;
@@ -257,4 +305,14 @@ body {
   top: -50px;
   left: 150px;
   width: 300px;
+  -webkit-animation-name: fish;
+  animation-name: fish;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
+  animation-timing-function: cubic-bazier(0.42, 0, 0.58, 1);
 }
