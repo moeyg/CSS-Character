@@ -1,4 +1,4 @@
-# 📌 haracter-Contest
+# 📌 Character-Contest
 ![character](https://user-images.githubusercontent.com/102715022/164966722-432c8c41-b821-4c46-a4b0-ede1e3954561.gif)
 <br>
 <br>
