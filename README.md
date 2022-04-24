@@ -1,6 +1,5 @@
 # 📌 Character-Contest
-![character](https://user-images.githubusercontent.com/102715022/164966722-432c8c41-b821-4c46-a4b0-ede1e3954561.gif)
-<br>
+![character](https://user-images.githubusercontent.com/102715022/164981637-f54c756d-5527-495a-b611-b709d68a775f.gif)<br>
 <br>
 🏷 <b>Skill</b>
 <ul>
